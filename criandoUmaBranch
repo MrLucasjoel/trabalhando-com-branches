@@ -14,3 +14,19 @@ git push origin nome-branch
 mesclar brachs
 git checkout master ou main
 git merge nomr-branch
+
+Resolvendo conflitos 
+ao alterar um mesmo arquivo no mesmo trecho(linha) de código, por commits
+diferentes ou branchs diferentes, um conflito é detectado.
+isso ocorre porque o git controla para você todas as alterações de códigos que 
+foram realizadas e mostra o conflito para que você decida o que fazer.
+
+no vscode aparecem algumas opções 
+accept current cjhange = aceia a verção do código que já estava presente 
+no branch atual descartando a versão do branch atual
+
+Accept incoming chance = aceita a versão do código que estava vindo do outro
+branch, descartando a versão do branch atual
+
+compare changes = abre uma comparação lado a lado para que você possa analisar
+as diferenças antes de decidir qual alteração aceitar.
